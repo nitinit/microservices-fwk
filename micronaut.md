@@ -49,7 +49,7 @@ The Micronaut built in client has both a low-level API and a higher level AOP-dr
 
 
 ### Client for Redis:
-This is one of the main issues that we have been having with Vertx. Micronaut features automatic configuration of the Lettuce driver for Redis. We already use Lettuce Client in Subs project, so that looks fine for our requirements.
+Micronaut features automatic configuration of the Lettuce driver for Redis.
 
 
 For more information, check: [Micronaut Redis](https://micronaut-projects.github.io/micronaut-redis/snapshot/guide/) 
@@ -100,7 +100,7 @@ The current default implementation for the logging system is LogbackLoggingSyste
 
 ### Tracebility.
 
-This is another point where our actual solution with Vertx is lacking as we can't trace requests end to end. Micronaut supports traceability with Jaeger and Zipkin.
+Micronaut supports traceability with Jaeger and Zipkin.
 
 [Microservices distributed tracing with Jaeger and Micronaut \| Micronaut Guides | Micronaut Framework](https://guides.micronaut.io/micronaut-microservices-distributed-tracing-jaeger/guide/index.html)
 
